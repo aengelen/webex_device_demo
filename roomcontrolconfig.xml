@@ -1,0 +1,67 @@
+<Extensions>
+  <Version>1.5</Version>
+  <Panel>
+    <PanelId>demo</PanelId>
+    <Type>Statusbar</Type>
+    <Icon>Sliders</Icon>
+    <Order>1</Order>
+    <Color>#A866FF</Color>
+    <Name>Demo</Name>
+    <Page>
+      <Name>Demo</Name>
+      <Row>
+        <Name>Diagnostics Mode</Name>
+        <Widget>
+          <WidgetId>diag</WidgetId>
+          <Type>ToggleButton</Type>
+          <Options>size=1</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Signage URL</Name>
+        <Widget>
+          <WidgetId>url</WidgetId>
+          <Name>Change</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Digital Signage</Name>
+        <Widget>
+          <WidgetId>signage</WidgetId>
+          <Name>Launch</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+  <Panel>
+    <PanelId>panel_1</PanelId>
+    <Type>Statusbar</Type>
+    <Icon>Proximity</Icon>
+    <Order>2</Order>
+    <Color>#C2C2C2</Color>
+    <Name>Proximity</Name>
+    <Page>
+      <Name>Proximity</Name>
+      <Row>
+        <Name>Ultrasound volume</Name>
+        <Widget>
+          <WidgetId>volume_text</WidgetId>
+          <Name>?</Name>
+          <Type>Text</Type>
+          <Options>size=1;fontSize=normal;align=center</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>volume_slider</WidgetId>
+          <Type>Slider</Type>
+          <Options>size=3</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+</Extensions>
